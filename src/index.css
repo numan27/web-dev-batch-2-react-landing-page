@@ -1,0 +1,46 @@
+/* Common */
+
+.primary_color {
+    color: #EA18F3 !important;
+}
+
+.primary_bg {
+    background-color: #EA18F3 !important;
+}
+
+/* header */
+
+.header {
+    background-image: url(assets/home-header-bg.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: auto left;
+}
+
+.btn-login {
+    background-color: transparent !important;
+}
+
+.btn-login:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 75px;
+}
+
+.card-icon {
+    width: 54px;
+    height: 54px;
+}
+
+.card-item {
+    padding: 35px 40px;
+    background: linear-gradient(90deg, rgb(236, 227, 243), rgb(210, 219, 242));
+}
