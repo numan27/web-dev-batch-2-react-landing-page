@@ -44,3 +44,17 @@
     padding: 35px 40px;
     background: linear-gradient(90deg, rgb(236, 227, 243), rgb(210, 219, 242));
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .hero-content h1{
+        font-size: 3rem;
+    }
+    
+}

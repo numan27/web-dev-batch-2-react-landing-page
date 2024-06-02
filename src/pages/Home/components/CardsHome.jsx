@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FaBookOpenReader } from 'react-icons/fa6'
 import IMAGES from '../../../assets'
+import CustomHeadingSecondary from "../../../components/GenericComponents/CustomHeadingSecondary"
 
 const CardsHome = () => {
 
@@ -28,7 +29,7 @@ const CardsHome = () => {
         <Container>
             <Row className='d-flex align-items-center justify-content-between'>
                 <Col md={4}>
-                    <h2 className='fw-bold fs-1'>Quality Content In just One click</h2>
+                    <CustomHeadingSecondary text="Quality Content In just One click" />
                 </Col>
                 <Col md={5}>
                     <p>Wether you need it urgently or just don't like to wait, our AI takes just seconds to deliver a complete work, no more waiting in commission queue.</p>
