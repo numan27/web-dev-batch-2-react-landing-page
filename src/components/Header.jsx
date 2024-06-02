@@ -1,5 +1,5 @@
-import React from 'react'
 import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import IMAGES from '../assets'
 
 const Header = () => {
@@ -11,11 +11,11 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
-                            <Nav.Link className='text-white' href="#home">Home</Nav.Link>
-                            <Nav.Link className='text-white' href="#link">Solution</Nav.Link>
-                            <Nav.Link className='text-white' href="#link">Pricing</Nav.Link>
-                            <Nav.Link className='text-white' href="#link">Blog</Nav.Link>
-                            <Nav.Link className='text-white' href="#link">About</Nav.Link>
+                            <Link className='text-white nav-link' to="/">Home</Link>
+                            <Link className='text-white nav-link' to="/solution">Solution</Link>
+                            <Link className='text-white nav-link' to="/pricing">Pricing</Link>
+                            <Link className='text-white nav-link' to="/blog">Blog</Link>
+                            <Link className='text-white nav-link' to="/about">About</Link>
                         </Nav>
 
                         <Nav className='gap-3'>
@@ -26,9 +26,9 @@ const Header = () => {
                 </Container>
             </Navbar>
 
-            <Container className='d-flex align-items-center pt-5'>
+            <Container className='d-flex align-items-center pt-lg-5'>
                 <Row className='mt-5'>
-                    <Col md={8}>
+                    <Col lg={8}>
                         <div className='text-white hero-content'>
                             <h1 className='mb-5'>Fast and Automatic Anime and Fantasy Writing</h1>
                             <p>Texts written by artificial intelligence</p>
