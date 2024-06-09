@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CustomDesc = ({ text }) => {
+const CustomDesc = ({ text, textColor }) => {
     return (
         <div>
-            <p className='fs-5 text-secondary'>{text}</p>
+            <p className={`fs-5 text-secondary ${textColor}`}>{text}</p>
         </div>
     )
 }

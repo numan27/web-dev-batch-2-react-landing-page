@@ -1,12 +1,12 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Blog from "./pages/Blog/Blog";
-import Pricing from "./pages/Pricing/Pricing";
-import Solution from "./pages/Solution/Solution";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Pricing from "./pages/Pricing";
+import Solution from "./pages/Solution";
 import AppLayout from "./components/AppLayout"
+import Home from "./pages/Home";
 
 
 function App() {
